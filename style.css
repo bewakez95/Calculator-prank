@@ -17,6 +17,7 @@ body {
   display: grid;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 .calculator {
   background: rgb(105, 79, 79);
@@ -58,8 +59,10 @@ body {
   font-weight: bold;
   font-family: "Roboto", sans-serif;
 }
-.unpress {
-  box-shadow: 1px 1px grey !important;
+
+.btn:active {
+  box-shadow: 0 1px #121111;
+  transform: scale(0.95);
 }
 .display:hover {
   cursor: wait;
@@ -140,4 +143,8 @@ body {
   100% {
     transform: translateX(-10px);
   }
+}
+.circle {
+  border-radius: 50% !important;
+  background-color: bisque !important;
 }

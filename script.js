@@ -1,8 +1,3 @@
-const press = () => {
-  let str = document.querySelector(".btn-ac");
-  str.classList.toggle("unpress");
-  //   console.log(str);
-};
 const operators = ["+", "-", "*", "/", "%"];
 // const dot = ["."];
 let lastOperator = "";
